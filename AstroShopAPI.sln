@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstroShopAPI", "AstroShopAPI\AstroShopAPI.csproj", "{7ABF3F44-88AD-45CA-84B7-9C04903E91AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AstroShopAPI", "AstroShopAPI\AstroShopAPI.csproj", "{7ABF3F44-88AD-45CA-84B7-9C04903E91AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstroShopDAL", "AstroShopDAL\AstroShopDAL.csproj", "{EB28E568-C732-4A1C-AE70-0198AA61017F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstroShopBL", "AstroShopBL\AstroShopBL.csproj", "{AD2F854A-1153-4F6C-9A91-6F1BD2633472}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{7ABF3F44-88AD-45CA-84B7-9C04903E91AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7ABF3F44-88AD-45CA-84B7-9C04903E91AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7ABF3F44-88AD-45CA-84B7-9C04903E91AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB28E568-C732-4A1C-AE70-0198AA61017F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB28E568-C732-4A1C-AE70-0198AA61017F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB28E568-C732-4A1C-AE70-0198AA61017F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB28E568-C732-4A1C-AE70-0198AA61017F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD2F854A-1153-4F6C-9A91-6F1BD2633472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD2F854A-1153-4F6C-9A91-6F1BD2633472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD2F854A-1153-4F6C-9A91-6F1BD2633472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD2F854A-1153-4F6C-9A91-6F1BD2633472}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
