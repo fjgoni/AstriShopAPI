@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstroShopDAL", "AstroShopDA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstroShopBL", "AstroShopBL\AstroShopBL.csproj", "{AD2F854A-1153-4F6C-9A91-6F1BD2633472}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstroShop.Model", "AstroShop.Model\AstroShop.Model.csproj", "{DC8871A8-D1A7-48C2-8888-B3099B0D59B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AD2F854A-1153-4F6C-9A91-6F1BD2633472}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD2F854A-1153-4F6C-9A91-6F1BD2633472}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD2F854A-1153-4F6C-9A91-6F1BD2633472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC8871A8-D1A7-48C2-8888-B3099B0D59B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC8871A8-D1A7-48C2-8888-B3099B0D59B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC8871A8-D1A7-48C2-8888-B3099B0D59B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC8871A8-D1A7-48C2-8888-B3099B0D59B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
