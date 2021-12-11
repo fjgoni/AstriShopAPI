@@ -1,0 +1,13 @@
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopBL\bin\Debug\netcoreapp3.1\AstroShopBL.deps.json
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopBL\bin\Debug\netcoreapp3.1\AstroShopBL.runtimeconfig.json
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopBL\bin\Debug\netcoreapp3.1\AstroShopBL.runtimeconfig.dev.json
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopBL\bin\Debug\netcoreapp3.1\AstroShopBL.dll
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopBL\bin\Debug\netcoreapp3.1\AstroShopBL.pdb
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopBL\obj\Debug\netcoreapp3.1\AstroShopBL.csprojAssemblyReference.cache
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopBL\obj\Debug\netcoreapp3.1\AstroShopBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopBL\obj\Debug\netcoreapp3.1\AstroShopBL.AssemblyInfoInputs.cache
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopBL\obj\Debug\netcoreapp3.1\AstroShopBL.AssemblyInfo.cs
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopBL\obj\Debug\netcoreapp3.1\AstroShopBL.csproj.CoreCompileInputs.cache
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopBL\obj\Debug\netcoreapp3.1\AstroShopBL.dll
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopBL\obj\Debug\netcoreapp3.1\AstroShopBL.pdb
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopBL\obj\Debug\netcoreapp3.1\AstroShopBL.genruntimeconfig.cache

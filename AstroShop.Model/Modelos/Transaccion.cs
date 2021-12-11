@@ -8,7 +8,7 @@ namespace AstroShop.Model
         public int CompradorID { get; set; }
         public virtual Concepto Concepto { get; set; }
         public int ConceptoID { get; set; }
-        public int TipoTransaccion { get; set; }
+        public int TipoTransaccionID { get; set; }
         public float Monto { get; set; }
         public DateTime FechaCreacion { get; set; }
         public int TransaccionID { get; set; }

@@ -1,0 +1,16 @@
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopDAL\bin\Debug\netcoreapp3.1\AstroShop.Model.dll
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopDAL\obj\Debug\netcoreapp3.1\AstroShopDAL.csprojAssemblyReference.cache
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopDAL\obj\Debug\netcoreapp3.1\AstroShopDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopDAL\obj\Debug\netcoreapp3.1\AstroShopDAL.AssemblyInfoInputs.cache
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopDAL\obj\Debug\netcoreapp3.1\AstroShopDAL.AssemblyInfo.cs
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopDAL\bin\Debug\netcoreapp3.1\AstroShopDAL.deps.json
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopDAL\bin\Debug\netcoreapp3.1\AstroShopDAL.runtimeconfig.json
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopDAL\bin\Debug\netcoreapp3.1\AstroShopDAL.runtimeconfig.dev.json
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopDAL\bin\Debug\netcoreapp3.1\AstroShopDAL.dll
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopDAL\bin\Debug\netcoreapp3.1\AstroShopDAL.pdb
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopDAL\bin\Debug\netcoreapp3.1\AstroShop.Model.pdb
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopDAL\obj\Debug\netcoreapp3.1\AstroShopDAL.csproj.CoreCompileInputs.cache
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopDAL\obj\Debug\netcoreapp3.1\AstroShopDAL.csproj.CopyComplete
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopDAL\obj\Debug\netcoreapp3.1\AstroShopDAL.dll
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopDAL\obj\Debug\netcoreapp3.1\AstroShopDAL.pdb
+C:\Users\Francisco\Desktop\Facultad\TecnologiaInformatica\AstroShopAPI\AstroShopDAL\obj\Debug\netcoreapp3.1\AstroShopDAL.genruntimeconfig.cache
