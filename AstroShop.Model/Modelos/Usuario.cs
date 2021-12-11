@@ -10,14 +10,14 @@ namespace AstroShop.Model
         public string DNI { get; set; }
         public DateTime FechaNacimiento { get; set; }
         public int UsuarioID { get; set; }
-        public bool Rol { get; }
+        public bool? Rol { get; }
 
-        public Usuario(string nombre, string apellido, string mail, string dni, DateTime fechaNacimiento)
+        public Usuario(string nombre, string apellido, string mail, string DNI, DateTime fechaNacimiento)
         {
             this.Nombre = nombre;
             this.Apellido = apellido;
             this.Mail = mail;
-            this.DNI = dni;
+            this.DNI = DNI;
             this.FechaNacimiento = fechaNacimiento;
         }
 

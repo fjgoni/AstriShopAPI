@@ -8,16 +8,16 @@ namespace AstroShop.Model
         public string DescripcionConcepto { get; set; }
         public float Precio { get; set; }
         public int stock { get; set; }
-        public Usuario Vendedor { get; set; }
-        public byte[] Imagen { get; }
-
-        public Concepto(string NombreConcepto, string DescripcionConcepto, int stock, float precio, Usuario Vendedor, byte[] imagen)
+        public virtual Usuario Vendedor { get; set; }
+        public virtual int VendedorID { get; set; }
+        public byte[] Imagen { get; set; }
+        public int ConceptoID { get; set; }
+        public Concepto(string NombreConcepto, string DescripcionConcepto, int stock, float precio, byte[] imagen)
         {
             this.NombreConcepto = NombreConcepto;
             this.DescripcionConcepto = DescripcionConcepto;
             this.Precio = precio;
             this.stock = stock;
-            this.Vendedor = Vendedor;
             this.Imagen = imagen;
         }
 

@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -11,6 +12,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AstroShopDAL.Context;
+using AstroShopDAL.Interfaces;
+using AstroShopDAL;
 
 namespace AstroShopAPI
 {
@@ -26,12 +30,19 @@ namespace AstroShopAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            string mySqlConnectionStr = Configuration.GetConnectionString("DefaultConnection");
+            services.AddDbContextPool<dbContext>(options => options.UseLazyLoadingProxies().UseMySql(mySqlConnectionStr, ServerVersion.AutoDetect(mySqlConnectionStr)));
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "AstroShopAPI", Version = "v1" });
             });
+
+            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            services.AddScoped<IPublicacionRepository, PublicacionRepository>();
+            services.AddScoped<IConceptoRepository, ConceptoRepository>();
+            services.AddScoped<ITransaccionRepository, TransaccionRepository>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
