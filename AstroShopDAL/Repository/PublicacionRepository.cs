@@ -18,6 +18,11 @@ namespace AstroShopDAL
             db = _db;
         }
 
+        public async Task<List<Publicacion>> GetAllPublicaciones()
+        {
+            return await db.Publicaciones.Include("Concepto").ToListAsync();
+        }
+
         public async Task<Publicacion> GetByPublicacionID(int publicacionID)
         {
             var publicacion =  await db.Publicaciones

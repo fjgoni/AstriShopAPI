@@ -26,7 +26,7 @@ namespace AstroShopAPI
         }
 
         public IConfiguration Configuration { get; }
-
+        public string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
@@ -38,10 +38,22 @@ namespace AstroShopAPI
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "AstroShopAPI", Version = "v1" });
             });
 
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                                  builder =>
+                                  {
+                                      builder.WithOrigins("http://localhost:4200");
+                                  });
+
+
+            });
+
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
             services.AddScoped<IPublicacionRepository, PublicacionRepository>();
             services.AddScoped<IConceptoRepository, ConceptoRepository>();
             services.AddScoped<ITransaccionRepository, TransaccionRepository>();
+
 
         }
 
@@ -56,7 +68,7 @@ namespace AstroShopAPI
             }
 
             app.UseHttpsRedirection();
-
+            app.UseCors(MyAllowSpecificOrigins);
             app.UseRouting();
 
             app.UseAuthorization();

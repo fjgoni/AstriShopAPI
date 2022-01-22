@@ -9,5 +9,6 @@ namespace AstroShopDAL.Interfaces
     public interface IPublicacionRepository
     {
         Task<Publicacion> GetByPublicacionID(int publicacionID);
+        Task<List<Publicacion>> GetAllPublicaciones();
     }
 }

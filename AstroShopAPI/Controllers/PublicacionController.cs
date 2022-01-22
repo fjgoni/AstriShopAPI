@@ -60,6 +60,33 @@ namespace AstroShopAPI.Controllers
 
         }
 
-        
+        [HttpGet]
+        [Route("GetAll")]
+        public async Task<IActionResult> GetAll()
+        {
+            WSData dataResp = new WSData { Status = "200" };
+            try
+            {
+                List<Publicacion> item = await this._publicacionRepository.GetAllPublicaciones();
+
+                if (item == null || item.Count == 0)
+                {
+                    dataResp.Status = "404";
+                    dataResp.ErrMessage = "No se encontraron registros";
+                    return Ok(dataResp);
+                }
+
+                dataResp.Data = JsonConvert.SerializeObject(item);
+                return Ok(dataResp);
+            }
+            catch (Exception ex)
+            {
+                dataResp.Status = "400";
+                dataResp.ErrMessage = ex.Message;
+                return Ok(dataResp);
+            }
+        }
+
+
     }
 }
