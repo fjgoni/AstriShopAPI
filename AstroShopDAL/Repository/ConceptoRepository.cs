@@ -18,6 +18,16 @@ namespace AstroShopDAL
             db = _db;
         }
 
+        public async Task AddConcepto(Concepto concepto)
+        {
+            await db.Conceptos.AddAsync(concepto);
+        }
+
+        public Task<bool> DeleteConcepto(Concepto concepto)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<Concepto> GetByConceptoID(int conceptoID)
         {
             var concepto = await db.Conceptos.Include("Vendedor").FirstOrDefaultAsync(x => x.ConceptoID == conceptoID);
@@ -25,6 +35,9 @@ namespace AstroShopDAL
             return concepto;
         }
 
-     
+        public Task<Concepto> UpdateConcepto(Concepto concepto)
+        {
+            throw new NotImplementedException();
+        }
     }
 } 

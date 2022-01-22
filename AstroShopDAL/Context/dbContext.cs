@@ -26,19 +26,12 @@ namespace AstroShopDAL.Context
             modelBuilder.Entity<Transaccion>().ToTable("transaccion");
             modelBuilder.Entity<Concepto>().ToTable("concepto");
 
-
             // Configure Primary Keys  
             modelBuilder.Entity<Usuario>().HasKey(u => u.UsuarioID).HasName("UsuarioID");
             modelBuilder.Entity<Publicacion>().HasKey(p => p.PublicacionID).HasName("PublicacionID");
             modelBuilder.Entity<Transaccion>().HasKey(t => t.TransaccionID).HasName("TransaccionID");
             modelBuilder.Entity<Concepto>().HasKey(c => c.ConceptoID).HasName("ConceptoID");
 
-            // Configure indexes  
-            /*          modelBuilder.Entity<UserGroup>().HasIndex(p => p.Name).IsUnique().HasDatabaseName("Idx_Name");
-                        modelBuilder.Entity<User>().HasIndex(u => u.FirstName).HasDatabaseName("Idx_FirstName");
-                        modelBuilder.Entity<User>().HasIndex(u => u.LastName).HasDatabaseName("Idx_LastName");*/
-
-            // Configure columns  
             //CONFIG USUARIO
             modelBuilder.Entity<Usuario>().Property(ug => ug.UsuarioID).HasColumnType("int").UseMySqlIdentityColumn().IsRequired();
             modelBuilder.Entity<Usuario>().Property(ug => ug.Nombre).HasColumnType("varchar(255)").IsRequired();

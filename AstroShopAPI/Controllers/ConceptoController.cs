@@ -60,6 +60,33 @@ namespace AstroShopAPI.Controllers
 
         }
 
-        
+
+        [HttpPost]
+        public async Task<IActionResult> Post([FromBody] Concepto concepto)
+        {
+            WSData dataResp = new WSData { Status = "200" };
+
+            if (concepto == null)
+            {
+                dataResp.Status = "400";
+                dataResp.ErrMessage = "No se ingreso datos en el body";
+                return Ok(dataResp);
+            }
+
+            try
+            {
+                await this._conceptoRepository.AddConcepto(concepto);
+                return Ok(dataResp);
+            }
+            catch (Exception ex)
+            {
+                dataResp.Status = "400";
+                dataResp.ErrMessage = ex.Message;
+                return Ok(dataResp);
+            }
+
+        }
+
+
     }
 }

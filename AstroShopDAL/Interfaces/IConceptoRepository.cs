@@ -9,5 +9,9 @@ namespace AstroShopDAL.Interfaces
     public interface IConceptoRepository
     {
         Task<Concepto> GetByConceptoID(int publicacionID);
+        Task AddConcepto(Concepto concepto);
+        Task<Concepto> UpdateConcepto(Concepto concepto);
+        Task<bool> DeleteConcepto(Concepto concepto);
+
     }
 }
